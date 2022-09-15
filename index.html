@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Soon Chokdi</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="logic.js" defer></script>
+</head>
+
+<body>
+    <div class="score">
+        <div class="x_score">
+            <font class="size-2">X - Score</font><br>
+            <span id="x_score_count">0</span>
+        </div>
+        <div class="circle_score">
+            <font class="size-2">Circle - Score</font><br>
+            <span id="circle_score_count">0</span>
+        </div>
+    </div>
+    <div class="board " id="board">
+        <div class="cell " data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+    <div class="winning-message">
+         <div data-winning-message-text class="center"></div>
+         <button id="restartButton">Restart</button>
+    </div>
+    <div class="container">
+        <button id="resetCount">Reset Score</button>
+    </div>
+</body>
+
+</html>
